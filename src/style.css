@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    background: rgb(36,0,35);
+    background: radial-gradient(circle, rgba(36,0,35,1) 0%, rgba(32,5,32,0.8046568969384629) 100%);
+    font-family: 'DynaPuff', cursive;
+}
+
+.list {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0px 40px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-head {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+.header {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    color: whitesmoke;
+}
+
+.todo {
+    width: 400px;
+    height: 4vh;
+    border-color: lightcoral;
+    outline-color: lightcoral;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'DynaPuff', cursive;
+    padding-left: 10px;
+}
+
+.add {
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    font-size: 25px;
+    border-color: lightcoral;
+    border-width: 4px;
+    cursor: pointer;
+}
+.to-dolist{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 40px;
+    box-shadow: 0px 40px 10px rgba(0, 0, 0, 0.1);
+}
+.task-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.point{
+    width: 35vw;
+    font-size: 30px;
+    color: white;
+}
+.done{
+    text-decoration: line-through;
+    opacity: 50%;
+}
+.point:hover{
+    cursor: pointer;
+}
+.delete{
+    font-size: 30px;
+    color: lightgrey;
+}
+.delete:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
